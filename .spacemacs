@@ -41,7 +41,7 @@ values."
      colors
      themes-megapack
      editorconfig
-     ;; git
+     git
      ;; markdown
      ;; org
      ;; (shell :variables
