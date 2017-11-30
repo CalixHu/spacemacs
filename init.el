@@ -33,4 +33,6 @@
   (spacemacs-buffer/display-startup-note)
   (spacemacs/setup-startup-hook)
   (require 'server)
-  (unless (server-running-p) (server-start)))
+  (unless (server-running-p) (server-start))
+  (require 'direnv)
+  (direnv-mode))
