@@ -34,5 +34,8 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start))
+  (require 'alchemist)
+  (exec-path-from-shell-initialize)
+  (exec-path-from-shell-copy-env "KIEX")
   (require 'direnv)
   (direnv-mode))
